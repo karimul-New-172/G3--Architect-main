@@ -136,6 +136,9 @@ main{
 .feature-love-img img{
     width: 100%;
 }
+.feature-love .first-paragraph{
+    margin: 40px 0;;
+}
 .feature-card{
     padding: 30px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
@@ -196,20 +199,30 @@ main{
 }
 /* sponsors related style */
 .sponsor-info{
-        max-width: 540px;
-        margin: 40px auto;
-        text-align: center;
-    }
-    .sponsor-description {
-        margin: 40px 0;
-    }
-    .sponsor-companies {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
-    .sponsor-companies img{
-        filter: grayscale(100%);
-    }
+    max-width: 540px;
+    margin: 40px auto;
+    text-align: center;
+}
+.sponsor-description {
+    margin: 40px 0;
+}
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-companies img{
+    filter: grayscale(100%);
+}
+
+/* footer style */
+footer{
+    max-width: 1140px;
+    margin: 150px auto 50px;
+    padding: 20px 0;
+    font-size: 1.25rem;
+    background-color: #FFF4E7;
+    text-align: center;
+}
 
 /* Responsive style */
 
